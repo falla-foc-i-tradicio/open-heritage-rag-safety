@@ -79,4 +79,4 @@ MIT. See [LICENSE](LICENSE).
 
 ## Status
 
-Pre-release `0.1.0`. The code is prepared as a standalone public project but has not yet been published or connected to any production association data.
+Pre-release `0.1.0`. The code is published as a standalone public project and is not connected to any production association data.
