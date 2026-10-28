@@ -1,0 +1,33 @@
+[build-system]
+requires = ["hatchling>=1.25"]
+build-backend = "hatchling.build"
+
+[project]
+name = "open-heritage-rag-safety"
+version = "0.1.0"
+description = "Dependency-free safety boundaries for cultural-heritage RAG prototypes"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+  { name = "Associació Cultural Falla Foc i Tradició de Fortaleny" },
+]
+classifiers = [
+  "Development Status :: 2 - Pre-Alpha",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Natural Language :: English",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Software Development :: Libraries",
+]
+keywords = ["rag", "ai-safety", "cultural-heritage", "citations", "privacy"]
+
+[project.urls]
+Homepage = "https://fallafocitradicio.es/"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/heritage_rag_safety"]
